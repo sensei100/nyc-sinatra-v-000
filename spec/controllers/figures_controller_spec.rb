@@ -1,4 +1,4 @@
-require 'spec_helper'
+cdrequire 'spec_helper'
 
 describe FiguresController do
   before do

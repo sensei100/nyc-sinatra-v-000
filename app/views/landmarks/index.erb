@@ -1,0 +1,11 @@
+<h1>Historical Landmarks</h1>
+
+<h2>Which landmark would you like to learn more about?</h2>
+
+<ul>
+  <% Landmark.all.each do |landmark| %>
+    <li><a href="/landmarks/"><%= landmark.name %></a></li>
+  <% end %>
+</ul>
+
+1961

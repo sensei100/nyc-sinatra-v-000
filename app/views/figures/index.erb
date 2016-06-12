@@ -1,0 +1,9 @@
+<h1>Historical Figures</h1>
+
+<h2>Which person would you like to learn more about?</h2>
+
+<ul>
+  <% Figure.all.each do |figure| %>
+    <li><a href="/figures/<%= figure.id %>"><%= figure.name %></a></li>
+  <% end %>
+</ul>
